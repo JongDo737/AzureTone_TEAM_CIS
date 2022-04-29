@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Main.css">
+    <script src="https://kit.fontawesome.com/fab8e6b94b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Sunflower:wght@500&display=swap"
+        rel="stylesheet">
+    <title>CIS_스마트팜</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div class="header_title">
+            <h1>' CIS ' 님의 농장</h1>
+        </div>
+        <div class="header_right">
+            <h4 class="header_right_name">
+                CIS님
+            </h4>
+            <a href="#" class="header_right_log">
+                내정보
+            </a>
+            <a href="#" class="header_right_log">
+                로그아웃
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">내 정보</a></li>
+            <li><a href="#">내 식물</a></li>
+            <li><a href="#">식물 관리</a></li>
+            <li><a href="#">해충 관리</a></li>
+            <li><a href="#">CCTV</a></li>
+            <li><a href="#">회원관리</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="main_img">
+            <div class="main_imgContainer">
+                <img src="./images/벼_일러스트 .png" alt="">
+            </div>
+        </section>
+        <section class="main_navbar">
+            <ul class="main_click">
+                <li class="click_left">'벼'의 종합의견 <i class="fa-solid fa-wheat"></i></li>
+
+                <li class="click_right">실제 수치</li>
+            </ul>
+            <div class="main_data1">
+                현재 기온은 27도 이기 때문에 날씨는 좋습니다.<br>
+                수분이 줄어들고 있어서 물공급이 좀 더 필요할 꺼같습니다.<br>
+                토양의 양분은 충분하지만 곧 장마철이니 각별한 주의 부탁드립니다.<br>
+
+            </div>
+            <div class="main_data2">
+                <ul>
+                    <li>종이름 : 벼</li>
+                    <li>현재날씨 : 맑음</li>
+                    <li>수분상태 : </li>
+                    <meter min="0" max="100" low="20" high="65" optimum="15" value="50"></meter>
+                    <li>토양상태 : </li>
+                    <meter min="0" max="100" low="20" high="65" optimum="15" value="90"></meter>
+                    <li>미세먼지 : </li>
+                    <meter min="0" max="100" low="20" high="65" optimum="15" value="15"></meter>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="button_container">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+
+        </div>
+
+    </footer>
+    <script src="./Main.js"></script>
+</body>
+
+</html>
